@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('Ganesh Optical Co'),
         centerTitle: true,
-        backgroundColor: Colors.cyan,
+        backgroundColor: Colors.teal,
       ),
       body: Center(
         
@@ -24,15 +24,15 @@ class Home extends StatelessWidget {
           ),
             onPressed: () {},
             icon: Icon(
-              Icons.mail
+              Icons.visibility_outlined,
             ), // Icon
-            label: Text('Mail Me'),
+            label: Text('Quote Me'),
           ), // ElevatedButton.icon
       ),
       floatingActionButton: FloatingActionButton( onPressed: () {},
         child: Text('Click'),
         backgroundColor: Colors.teal,
-      ),
-    );
+      ), // FloatingActionButton
+    ); // Scaffold
   }
 }

@@ -1,2 +1,2 @@
 # elevatedbutton
-# container [chnaging the text color inside a class]
+# container [changing the text color inside a class]

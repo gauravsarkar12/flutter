@@ -15,37 +15,19 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.cyan,
       ),
       body: Center(
+        
         // Button in Icons
         child: ElevatedButton.icon(
-            onPressed: () {},
-          style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all(Colors.amber),
-
+          style: ElevatedButton.styleFrom(
+            primary: Colors.amber, // background
+            onPrimary: Colors.black, // foreground
           ),
+            onPressed: () {},
             icon: Icon(
               Icons.mail
-            ),
+            ), // Icon
             label: Text('Mail Me'),
-          ),
-        
-        // Button
-        // child: ElevatedButton(
-        //   onPressed: () {
-        //     print('There you go!');
-        //   },
-        //   child: Text('Click Me'),
-        // ),
-
-        // Icons
-        // child: Icon(
-        //   Icons.visibility,
-        //   color: Colors.redAccent,
-        //   size: 50.0,
-        // ),
-
-        // Pictures import
-        // child: Image.asset('assets/nature.jpeg'),
-        // child: Image.network('https://wallpaperaccess.com/full/3887508.jpg'),
+          ), // ElevatedButton.icon
       ),
       floatingActionButton: FloatingActionButton( onPressed: () {},
         child: Text('Click'),

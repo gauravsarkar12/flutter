@@ -22,11 +22,9 @@ class Home extends StatelessWidget {
             primary: Colors.amber, // background
             onPrimary: Colors.black, // foreground
           ),
-            onPressed: () {},
-            icon: Icon(
-              Icons.visibility_outlined,
-            ), // Icon
-            label: Text('Quote Me'),
+            onPressed: () {}, // Icon Function
+            icon: Icon(Icons.visibility_outlined), // Icon
+            label: Text('Quote Me'), // Label
           ), // ElevatedButton.icon
       ),
       floatingActionButton: FloatingActionButton( onPressed: () {},

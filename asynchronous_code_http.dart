@@ -11,10 +11,10 @@ class Loading extends StatefulWidget {
 
 class _LoadingState extends State<Loading> {
 
-  void getData() async { // Asynchronous Code
+  void getData() async { // Asynchronous Function using http package
 
     Response response = await get(Uri.parse('utl')); // Uri.parse: A Uri object is usually used to tell a ContentProvider what we want to access by reference.
-    Map data = jsonDecode(response.body);
+    Map data = jsonDecode(response.body); // Decode the JSON string
     print(data);
   }
 

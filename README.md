@@ -9,4 +9,6 @@
     <p>Links used: <a href="https://pub.dev/packages/http/install">http Package</a><p>
   <li><a href="https://github.com/gauravsarkar12/Dart/blob/main/time_api.dart">Time API</a> </li>
     <p>Links used: <a href="http://worldtimeapi.org/">World Time API</a><p>
+  <li><a href="https://github.com/gauravsarkar12/Dart/blob/main/loader.dart">Loading Effect</a> </li>
+    <p>Links used: <a href="https://pub.dev/packages/flutter_spinkit/">Flutter Loading Effect</a><p>
 </ol>

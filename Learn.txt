@@ -1,0 +1,16 @@
+Learn Java, JavaScript and Dart languages for FLUTTER.
+
+1. void means we are not returning any function in it.
+
+2. FlatButton, RaisedButton, and Outline Button have been replaced by TextButton, ElevatedButton, and OutlinedButton respectively. Button Theme has been replaced by TextButton Theme, ElevatedButtonTheme, and OutlinedButtonTheme.
+
+3. To avoid null safety or null value then use '?' after the datatype.
+
+
+
+Flutter: (use to learn)
+Navigator.pushNamed(): pushing to other router
+setState
+async
+await
+Future <void>
